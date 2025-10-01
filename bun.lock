@@ -1,0 +1,17 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "ubrn-wasm-demo",
+      "dependencies": {
+        "uniffi-bindgen-react-native": "^0.29.3-1",
+      },
+    },
+  },
+  "trustedDependencies": [
+    "uniffi-bindgen-react-native",
+  ],
+  "packages": {
+    "uniffi-bindgen-react-native": ["uniffi-bindgen-react-native@0.29.3-1", "", { "bin": { "ubrn": "bin/cli.cjs", "uniffi-bindgen-react-native": "bin/cli.cjs" } }, "sha512-o6gXZsAh55yuvhwF2WSFdIHV4phyfWcCmg4DuyfJWJ7CvUz1UcIz2S4u9SmXAz1jsuqvu6Xc9hexrRBB0a5osg=="],
+  }
+}

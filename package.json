@@ -1,0 +1,17 @@
+{
+  "name": "ubrn-wasm-demo",
+  "dependencies": {
+    "uniffi-bindgen-react-native": "^0.29.3-1"
+  },
+  "trustedDependencies": ["uniffi-bindgen-react-native"],
+  "scripts": {
+    "ubrn:web": "ubrn build web",
+    "ubrn:checkout": "ubrn checkout",
+    "ubrn:clean": "rm -rfv  src/index.*ts src/generated/"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "browser": "src/index.ts"
+}
