@@ -1,6 +1,5 @@
 rust:
-  repo: https://github.com/jhugman/uniffi-starter.git
-  rev: 88944eaff69f4aea0135344a6b4e068f9b0c63e9
-  manifestPath: rust/foobar/Cargo.toml
+  directory: ./rust_src
+  manifestPath: Cargo.toml
 web:
   ts: src/generated/web
