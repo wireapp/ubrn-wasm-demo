@@ -1,0 +1,11 @@
+[package]
+name = "rust_src"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+uniffi = "0.29.5"
+
+[lib]
+name = "rust_src"
+crate-type = ["lib", "cdylib", "staticlib"]
