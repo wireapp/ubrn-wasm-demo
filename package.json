@@ -1,7 +1,7 @@
 {
   "name": "ubrn-wasm-demo",
   "dependencies": {
-    "uniffi-bindgen-react-native": "^0.29.3-1"
+    "uniffi-bindgen-react-native": "github:wireapp/uniffi-bindgen-react-native#50bcea5a5346c88f619af5c1a34037c884e59edb"
   },
   "trustedDependencies": ["uniffi-bindgen-react-native"],
   "scripts": {
@@ -13,5 +13,8 @@
     "type": "",
     "url": ""
   },
-  "browser": "src/index.ts"
+  "browser": "src/index.ts",
+  "devDependencies": {
+    "yarn": "^1.22.22"
+  }
 }
