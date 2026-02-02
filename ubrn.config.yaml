@@ -3,3 +3,5 @@ rust:
   manifestPath: Cargo.toml
 web:
   ts: src/generated/web
+bindings:
+  uniffiToml: ./uniffi.toml
